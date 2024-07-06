@@ -1,0 +1,95 @@
+body {
+	margin-left: 0px;
+	margin-top: 1px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+ul {list-style-type: disc;}
+
+A:link {text-decoration: none; color: #0076BD}
+A:visited {text-decoration: none; color: #0076BD}
+A:active {text-decoration: none; color: #0076BD}
+A:hover {text-decoration: none; color: red;}
+
+.fhead {font-family: Arial; font-size: 17px;}
+.fsubhead {font-family: Arial; font-size: 14px;}
+.blkhead {margin-left: 3px; letter-spacing:1px; font-family: Verdana; font-size: 11px; font-weight: bold;}
+.blkdate {font-family: Verdana; font-size: 9px;}
+.blklink {font-family: Verdana; font-size: 11px; line-height: 1.25em;}
+
+#paging{
+	padding:1px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+	font-weight:bold;
+}
+
+#paging a{
+	padding:2px 3px 2px 3px;
+	margin:0px 2px 0px 2px;
+	border:1px solid #0076BC;
+	background:#FFFFFF;
+	color:#0076BC;
+	text-decoration:none;
+}
+
+#pagingnolink{
+	padding:2px 3px 2px 3px;
+	margin:0px 2px 0px 2px;
+	border:1px solid #FF9900;
+	background:#FFFFFF;
+	color:#FF9900;
+	text-decoration:none;
+}
+
+
+#paging a:hover{
+	border:1px solid #0076BC;
+	background:#0076BC;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+#lightbox{	position: absolute;	left: 0; width: 100%; z-index: 100; text-align: center; line-height: 0;}
+#lightbox img{ width: auto; height: auto;}
+#lightbox a img{ border: none; }
+
+#outerImageContainer{ position: relative; background-color: #fff; width: 250px; height: 250px; margin: 0 auto; }
+#imageContainer{ padding: 10px; }
+
+#loading{ position: absolute; top: 40%; left: 0%; height: 25%; width: 100%; text-align: center; line-height: 0; }
+#hoverNav{ position: absolute; top: 0; left: 0; height: 100%; width: 100%; z-index: 10; }
+#imageContainer>#hoverNav{ left: 0;}
+#hoverNav a{ outline: none;}
+
+#prevLink, #nextLink{ width: 49%; height: 100%; background-image: url(data:image/gif;base64,AAAA); /* Trick IE into showing hover */ display: block; }
+#prevLink { left: 0; float: left;}
+#nextLink { right: 0; float: right;}
+#prevLink:hover, #prevLink:visited:hover { background: url(/icons/prevlabel.gif) left 15% no-repeat; }
+#nextLink:hover, #nextLink:visited:hover { background: url(/icons/nextlabel.gif) right 15% no-repeat; }
+
+#imageDataContainer{ font: 10px Verdana, Helvetica, sans-serif; background-color: #fff; margin: 0 auto; line-height: 1.4em; overflow: auto; width: 100%	; }
+
+#imageData{	padding:0 10px; color: #666; }
+#imageData #imageDetails{ width: 70%; float: left; text-align: left; }	
+#imageData #caption{ font-weight: bold;	}
+#imageData #numberDisplay{ display: block; clear: left; padding-bottom: 1.0em;	}			
+#imageData #bottomNavClose{ width: 66px; float: right;  padding-bottom: 0.7em; outline: none;}	 	
+
+#overlay{ position: absolute; top: 0; left: 0; z-index: 90; width: 100%; height: 500px; background-color: #000; }
+
+.Title {font-weight:bold;font-family:Verdana,arial,sans-serif;font-size:12px;background: #D6E7EF;border-bottom: 1px solid #104A7B;border-right: 1px solid #104A7B;border-left: 1px solid #AFC4D5;border-top:1px solid #AFC4D5; color:#000066;text-decoration:none;}
+.Contents {font-family:Verdana,arial,sans-serif;font-size:12px;background: #FAFAFA;border-bottom: 1px solid #104A7B;border-right: 1px solid #104A7B;border-left: 1px solid #AFC4D5;border-top:1px solid #AFC4D5; color:#000066;text-decoration:none;}
+.Tips {font-family:Verdana,arial,sans-serif;font-size:11px;background: #F7F3EF;border-bottom: 1px solid #104A7B;border-right: 1px solid #104A7B;border-left: 1px solid #AFC4D5;border-top:1px solid #AFC4D5; color:#000066;text-decoration:none;}
+.1Tit {font-weight:bold;font-family:Verdana,arial,sans-serif;font-size:12px;background: #D6E7EF;border-bottom: 1px solid #104A7B;border-right: 1px solid #104A7B;border-left: 1px solid #AFC4D5;border-top:1px solid #AFC4D5; color:#000066;text-decoration:none;}
+.1Con {font-family:Verdana,arial,sans-serif;font-size:12px;background: #FAFAFA;border-bottom: 1px solid #104A7B;border-right: 1px solid #104A7B;border-left: 1px solid #AFC4D5;border-top:1px solid #AFC4D5; color:#000066;text-decoration:none;}
+.2Tit {font-weight:bold;font-family:Verdana,arial,sans-serif;font-size:12px;background: #D6EFE7;border-bottom: 1px solid #104A7B;border-right: 1px solid #104A7B;border-left: 1px solid #AFC4D5;border-top:1px solid #AFC4D5; color:#000066;text-decoration:none;}
+.2Con {font-family:Verdana,arial,sans-serif;font-size:12px;background: #F7F3EF;border-bottom: 1px solid #104A7B;border-right: 1px solid #104A7B;border-left: 1px solid #AFC4D5;border-top:1px solid #AFC4D5; color:#000066;text-decoration:none;}
+.Tips {font-family:Verdana,arial,sans-serif;font-size:11px;background: #F7F3EF;border-bottom: 1px solid #104A7B;border-right: 1px solid #104A7B;border-left: 1px solid #AFC4D5;border-top:1px solid #AFC4D5; color:#000066;text-decoration:none;}
+.Tab1 {font-family:Verdana,arial,sans-serif;font-size:11px;background: #F7F3EF;border-bottom: 1px solid #104A7B;border-right: 1px solid #104A7B;border-left: 1px solid #AFC4D5;border-top:1px solid #AFC4D5; color:#000066;text-decoration:none;}
+.Tab2 {font-family:Verdana,arial,sans-serif;font-size:11px;background: #E0E5E4;border-bottom: 1px solid #104A7B;border-right: 1px solid #104A7B;border-left: 1px solid #AFC4D5;border-top:1px solid #AFC4D5; color:#000066;text-decoration:none;}
+
+SELECT, TEXTAREA, .SMALL {font-size:11px;color:#1A334C;font-family:Verdana, Arial, Helvetica, sans-serif;font-weight:normal;}
+INPUT {BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; FONT-FAMILY:Verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 11px}
